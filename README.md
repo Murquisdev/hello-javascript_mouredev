@@ -9,24 +9,50 @@
 ### Proyecto realizado durante emisiones en directo desde [Twitch](https://twitch.tv/mouredev)
 > ##### Si consideras útil el curso, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
 
-## 🆕 NUEVO: Curso Intermedio [En desarrollo]
+## 🆕 NUEVO: Curso Intermedio [Finalizado]
 
 <a href="https://twitch.tv/mouredev"><img src="./Images/intermediate.jpg" style="height: 50%; width:50%;"/></a>
 
-### Curso de fundamentos intermedio (continuación del desde cero). Nueva clase cada semana.
-
-#### 🔴 PRÓXIMA CLASE EN DIRECTO: Miércoles 12 de febreto a las 20:00h (España) en [Twitch](https://twitch.tv/mouredev) y [YouTube](https://youtube.com/@mouredev)
-#### 🗓️ CONSULTA EL HORARIO POR PAÍS Y CREA UN RECORDATORIO desde [Discord](https://discord.gg/876GQ39x?event=1336827032805576714)
+### Curso de fundamentos intermedio (continuación del desde cero). 
 
 * Clase 1 [29/01/2025] - Funciones avanzadas
-	* [Vídeo](https://www.twitch.tv/videos/2367024319?t=00h08m45s)
+	* [Vídeo](https://www.twitch.tv/videos/2403685765?t=00h08m45s)
 	* [Código](./Intermediate/00-advanced-functions.js)
-	* [Ejericios](./Intermediate/01-advanced-functions-exercises.js)
+	* [Ejercicios](./Intermediate/01-advanced-functions-exercises.js)
 
 * Clase 2 [05/02/2025] - Estructuras avanzadas
-	* [Vídeo](https://www.twitch.tv/videos/2373300186?t=00h15m32s)
+	* [Vídeo](https://www.twitch.tv/videos/2403685940?t=00h15m32s)
 	* [Código](./Intermediate/02-advanced-structures.js)
-	* [Ejericios](./Intermediate/03-advanced-structures-exercises.js)
+	* [Ejercicios](./Intermediate/03-advanced-structures-exercises.js)
+
+* Clase 3 [12/02/2025] - Objetos y Clases avanzadas
+	* [Vídeo](https://www.twitch.tv/videos/2403685993?t=00h21m33s)
+	* [Código Objetos](./Intermediate/04-advanced-objects.js)
+	* [Código Clases](./Intermediate/05-advanced-classes.js)
+	* [Ejercicios](./Intermediate/06-advanced-objects-classes-exercises)
+
+* Clase 4 [19/02/2025] - Programación asíncrona
+	* [Vídeo](https://www.twitch.tv/videos/2403686047?t=00h22m48s)
+	* [Código](./Intermediate/07-async.js)
+	* [Ejercicios](./Intermediate/08-async-exercises.js)
+
+* Clase 5 [26/02/2025] - Manejo de APIs
+	* [Vídeo](https://www.twitch.tv/videos/2403686091?t=00h17m25s)
+	* [Código](./Intermediate/09-apis.js)
+	* [Ejercicios](./Intermediate/10-apis-exercises.js)
+
+* Clase 6 [06/03/2025] - Manejo del DOM
+	* [Vídeo](https://www.twitch.tv/videos/2403686130?t=00h11m52s)
+	* [Código](./Intermediate/11-dom.js)
+	* Ejemplo simple: [HTML](./Intermediate/12-dom-example.html) - [JS](./Intermediate/13-dom-example.js)
+	* Ejemplo lista de tareas: [HTML](./Intermediate/14-tasklist.html) - [JS](./Intermediate/15-tasklist.js)
+	* [Ejercicios](./Intermediate/16-dom-exercises.js)
+  
+* Clase 7 [12/03/2025] - Debug, Regex y Testing
+    * [Vídeo](https://www.twitch.tv/videos/2420494093?t=00h21m55s)
+    * Debug: [Código](./Intermediate/17-debugging.js) - [Ejercicios](./Intermediate/18-debugging-exercises.js)
+    * Regex: [Código](./Intermediate/19-regex.js) - [Ejercicios](./Intermediate/20-regex-exercises.js)
+    * Testing: [Código](./Intermediate/21-testing.js) - [Test](./Intermediate/22-testing.test.js) - [Ejercicios](./Intermediate/23-testing-exercises.js)
 
 ## Clases en vídeo
 
@@ -96,6 +122,10 @@
 * Exploradores: [Chrome](https://www.google.com/intl/es_es/chrome/) | [Brave](https://brave.com/download/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Guía de estilo](https://google.github.io/styleguide/jsguide.html)
+* Clientes HTTP: [Postman](https://postman.com) | [Apidog](https://apidog.com) | [Thunder Client](https://thunderclient.com)
+* APIs: [JSONPlaceholder](https://jsonplaceholder.typicode.com) | [OpenWeather](https://openweathermap.org) | [PokéAPI](https://pokeapi.co)
+* Expresiones regulares: [Documentación](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet
+) | [Regex101](https://regex101.com/)
 
 ## Únete al campus de programación de la comunidad
 
@@ -114,18 +144,15 @@ Mi idea es que el curso sea desde cero y para principiantes. Pensado para una pe
 
 Si la acogida de la comunidad es buena, seguiré creando cursos más avanzados.
 
-#### ¿Este curso va a continuar?
-Sí, actualmente estoy desarrollando la parte Intermedia. Cada semana una nueva clase en directo.
-
 #### ¿Este curso se va a subir a YouTube?
 
-Sí, una vez finalizado lo editaré y subiré al igual que con la parte Desde Cero. Por el momento podrás encontrar cada una de las clases de manera individual en este repositorio.
+Sí, una vez finalizados, todos los cursos son editados y subidos en bloque a YouTube.
 
 #### ¿Existe algún lugar donde consultar dudas?
 He creado un canal llamado "JavaScript" en el [servidor de Discord](https://discord.gg/mouredev) de la comunidad. Allí puedes consultar dudas y ayudar al resto de miembros. Así nos beneficiamos tod@s.
 
 #### ¿Cómo puedo practicar?
-A medida que avance el curso, crearé ficheros de ejercicios para poner en práctica lo aprendido. También puedes realizar los ejercicios de mi web [retosdeprogramacion.com](https://retosdeprogramacion.com).
+En cada lección encontrarás ejercicios para poner en práctica lo aprendido. También puedes realizar los ejercicios de mi web [retosdeprogramacion.com](https://retosdeprogramacion.com).
 
 ## ![https://mouredev.com](https://raw.githubusercontent.com/mouredev/mouredev/master/mouredev_emote.png) Hola, mi nombre es Brais Moure.
 ### Freelance full-stack iOS & Android engineer
