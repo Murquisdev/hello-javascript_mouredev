@@ -4,32 +4,32 @@ Vídeo: https://www.twitch.tv/videos/2403686091?t=00h17m25s
 */
 
 // 1. Realiza una petición GET con fetch() a JSONPlaceholder y muestra en la consola la lista de publicaciones
-// fetch("https://jsonplaceholder.typicode.com/posts")
-//   .then((response) => {
-//     return response.json();
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((error) => {
-//     console.log("Error: ", error);
-//   });
+fetch("https://jsonplaceholder.typicode.com/posts")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log("Error: ", error);
+  });
 // 2. Modifica el ejercicio anterior para que verifique si la respuesta es correcta usando response.ok. Si no lo es, lanza y muestra un error
-// fetch("https://jsonplaceholder.typicode.com/post")
-//   .then((response) => {
-//     if (response.ok) return response.json();
-//     else
-//       throw new Error(
-//         `Error en la petición: ${response.status} - ${response.statusText}`
-//       ); // Lanza una instancia de Error
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((error) => {
-//     console.error(error);
-//   });
-// console.log();
+fetch("https://jsonplaceholder.typicode.com/post")
+  .then((response) => {
+    if (response.ok) return response.json();
+    else
+      throw new Error(
+        `Error en la petición: ${response.status} - ${response.statusText}`
+      ); // Lanza una instancia de Error
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+console.log();
 // 3. Reescribe el ejercicio 1 usando la sintaxis async/await en lugar de promesas
 async function getPosts() {
   try {
@@ -43,7 +43,7 @@ async function getPosts() {
     console.error(error);
   }
 }
-// getPosts();
+getPosts();
 
 // 4. Realiza una petición POST a JSONPlaceholder para crear una nueva publicación. Envía un objeto con propiedades como title o body
 async function createPost() {
@@ -74,8 +74,7 @@ async function createPost() {
     console.error(error);
   }
 }
-// createPost();
-console.log();
+createPost();
 
 // 5. Utiliza el método PUT para actualizar completamente un recurso (por ejemplo, modificar una publicación) en JSONPlaceholder
 async function editPost() {
@@ -109,8 +108,8 @@ async function editPost() {
     console.error(error);
   }
 }
-// editPost();
-console.log();
+editPost();
+
 // 6. Realiza una petición PATCH para modificar únicamente uno o dos campos de un recurso existente
 async function editTitle() {
   try {
@@ -140,8 +139,7 @@ async function editTitle() {
     console.error(error);
   }
 }
-// editTitle();
-console.log();
+editTitle();
 
 // 7. Envía una solicitud DELETE a la API para borrar un recurso (por ejemplo, una publicación) y verifica la respuesta
 async function deletePost() {
@@ -164,8 +162,7 @@ async function deletePost() {
     console.error(error);
   }
 }
-// deletePost();
-console.log();
+deletePost();
 
 // 8. Crea una función que realice una solicitud GET (la que quieras) a OpenWeatherMap
 async function getWeather() {
@@ -187,7 +184,7 @@ async function getWeather() {
     console.error(error);
   }
 }
-// getWeather();
+getWeather();
 
 // 9. Utiliza la PokéAPI para obtener los datos de un Pokémon concreto, a continuación los detalles de la especie y, finalmente, la cadena evolutiva a partir de la especie
 async function getPokemon(pokemon) {
